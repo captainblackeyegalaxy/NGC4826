@@ -1,0 +1,119 @@
+// --------------------------------------------------
+//   Internet Explorer Arial Fallback from openSans
+// --------------------------------------------------
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  body, .inter-mc {
+	font-family: Arial !important;
+  }
+}
+
+// --------------------------------------------------
+// main features classes
+// --------------------------------------------------
+.inspector {
+  background: rgba(255,255,0,1);
+  z-index:10;
+  position:fixed;
+  bottom:0;
+  display:block;
+  width:100%;
+  padding:20px;
+  direction:ltr !important;
+}
+.inter-share {
+  text-align: $default-dir;
+  font-size: 32px;
+  button {
+    cursor:pointer;
+    margin-#{$default-dir}: $gen-margin;
+    font-family: "htzIcons";
+    font-weight:400;
+    color: $main-color;
+    &:hover {
+      color: $gray;
+    }
+    &:first-child {
+      margin-#{$default-dir}: 0;
+    }
+  }
+}
+
+.inter-ad {
+  width:100%;
+  //background:#fff;
+  text-align: center;
+}
+// --------------------------------------------------
+//   helper classes
+// --------------------------------------------------
+.inter-street {
+  height:100%;
+}
+.inter-gradient {
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black));
+  background-image: -webkit-linear-gradient(top, transparent, black);
+  background-image: -moz-linear-gradient(top, transparent, black);
+  background-image: -ms-linear-gradient(top, transparent, black);
+  background-image: -o-linear-gradient(top, transparent, black);
+  background-image: linear-gradient(top, transparent, black);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='transparent', endColorStr='black');
+}
+.inter-transition {
+  transition: all 0.15s ease-in-out;
+}
+.inter-boxShadow {
+  @include prefix((box-shadow: 0 0 7px #5a5a5a),web moz o ms);
+}
+.inter-textShadow {
+  @include prefix((text-shadow: 0 0 7px #5a5a5a),web moz o ms);
+}
+.inter-img-w {
+  width:100%;
+  max-width:100%;
+  height:auto;
+  border:0;
+}
+.inter-img-h {
+  height:100%;
+  max-height:100%;
+  width:auto;
+}
+@for $i from 0 through 10 {
+  .o#{$i*10} {
+	opacity: $i/10;
+  }
+}
+.dsp-b {
+  display: block !important;
+}
+.dsp-n {
+  display: none !important;
+}
+.bar-margin {
+  margin: 45px auto 0px auto !important;
+}
+
+@for $i from 0 through 10 {
+  .w#{$i*10} {
+    width: $i*10%;
+  }
+}
+.tac {
+  text-align:center !important;
+}
+.clfx {
+  clear:both;
+}
+
+.hid {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+}

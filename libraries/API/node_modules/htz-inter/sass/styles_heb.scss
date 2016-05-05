@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 400;
+  src: url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Regular.eot");
+  src: url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Regular.eot?#iefix") format("embedded-opentype"), url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Regular.woff") format("woff"), url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Regular.ttf") format("truetype")
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Open Sans Hebrew";
+    font-style: normal;
+    font-weight: 400;
+    src: url("http://www.haaretz.co.il/htz/css/resp/fonts/opensanshebrew-regular.svg#open_sans_hebrewregular") format("svg")
+  }
+}
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.eot);
+  src: url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.eot?#iefix) format("embedded-opentype"), url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.woff) format("woff"), url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Bold.ttf) format("truetype")
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "open sans hebrew";
+    font-style: normal;
+    font-weight: 700;
+    src: url("http://www.haaretz.co.il/htz/css/resp/fonts/opensanshebrew-bold.svg#open_sans_hebrewbold") format("svg")
+  }
+}
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-style: italic;
+  font-weight: 400;
+  src: url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Italic.eot");
+  src: url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Italic.eot?#iefix") format("embedded-opentype"), url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Italic.woff") format("woff"), url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-Italic.ttf") format("truetype")
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Open Sans Hebrew";
+    font-style: italic;
+    font-weight: 400;
+    src: url("http://www.haaretz.co.il/htz/css/resp/fonts/opensanshebrew-italic.svg#open_sans_hebrewitalic") format("svg")
+  }
+}
+@font-face {
+  font-family: 'Open Sans Hebrew';
+  font-style: italic;
+  font-weight: 700;
+  src: url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-BoldItalic.eot");
+  src: url("http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-BoldItalic.eot?#iefix") format("embedded-opentype"), url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-BoldItalic.woff) format("woff"), url(http://themes.googleusercontent.com/static/fonts/earlyaccess/opensanshebrew/v1/OpenSansHebrew-BoldItalic.ttf) format("truetype")
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Open Sans Hebrew";
+    font-style: italic;
+    font-weight: 700;
+    src: url("http://www.haaretz.co.il/htz/css/resp/fonts/opensanshebrew-bolditalic.svg#open_sans_hebrewbold_italic") format("svg")
+  }
+}
+@font-face {
+  font-family: "htzIcons";
+  src: url(fonts/htzIcons.eot);
+  src: url("http://www.haaretz.co.il/htz/css/resp/fonts/htzIcons.eot?#iefix") format("embedded-opentype"), url("http://www.haaretz.co.il/htz/css/resp/fonts/htzIcons.woff") format("woff"), url("http://www.haaretz.co.il/htz/css/resp/fonts/htzIcons.ttf") format("truetype"), url("http://www.haaretz.co.il/htz/css/resp/fonts/htzIcons.svg#htzIcons") format("svg")
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "htzIcons";
+    src: url("http://www.haaretz.co.il/htz/css/resp/fonts/htzIcons.svg#htzIcons") format("svg")
+  }
+}
+$domain: "heb" !global;
+@import "styles";
+
+
+
+
+
+
+
+
+
+

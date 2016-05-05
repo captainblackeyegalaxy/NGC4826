@@ -1,0 +1,82 @@
+@mixin font-size($font-size) {
+	font-size: $font-size + px;
+  	@if  $font-size > 16 and $font-size < 18 {
+	  line-height: $font-size * 1.5 + px;
+	} @else if $font-size > 18 and $font-size < 20 {
+	  line-height: $font-size * 1.6667 + px;
+	} @else if $font-size > 20 {
+	  line-height: $font-size * 1.2 + px;
+	}
+}
+/* -----------------------------------------------------------------
+
+.element {
+  @include size(100px,100px);
+}
+
+-------------------------------------------------------------------*/
+
+
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+/* -----------------------------------------------------------------
+
+.element {
+  @include prefix((transform: translate(-50%, -50%)), webkit ms o moz);
+}
+
+-------------------------------------------------------------------*/
+
+@mixin prefix($map, $vendors: webkit moz ms o) {
+  @each $prop, $value in $map {
+	@if $vendors {
+	  @each $vendor in $vendors {
+		#{"-" + $vendor + "-" + $prop}: #{$value};
+	  }
+	}
+	// Dump regular property anyway
+	#{$prop}: #{$value};
+  }
+}
+
+/* -----------------------------------------------------------------
+
+.element {
+  @include clearfix();
+}
+
+-------------------------------------------------------------------*/
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* -----------------------------------------------------------------
+-------------------------------------------------------------------*/
+
+@mixin respFont($size) {
+  font-size: #{$size}rem;
+  line-height:  #{$size*1.25}rem;
+  .t & {
+	$sizet: $size / 1.5;
+	font-size: #{$sizet}rem;
+	line-height:  #{$sizet*1.5}rem;
+  }
+  .s & {
+	$sizes: $size / 1.2;
+	font-size: #{$sizes}rem;
+	line-height:  #{$sizes*1.5}rem;
+  }
+  .m & {
+	$sizem: $size / 1.11111;
+	font-size: #{$sizem}rem;
+	line-height:  #{$sizem*1.11111}rem;
+  }
+}

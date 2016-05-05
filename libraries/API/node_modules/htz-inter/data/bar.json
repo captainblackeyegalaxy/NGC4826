@@ -1,0 +1,20 @@
+{
+  "setup": {
+    "domain": "heb"
+  },
+  "share": {
+    "header": "header",
+    "desc": "desc",
+    "text": "text",
+    "img": "http://lorempixel.com/1920/1080/abstract/1",
+    "link": "http://www.haaretz.co.il"
+  },
+  "menu": [
+    {"title": "item1", "link": "#item1"},
+    {"title": "item1", "link": "#item1"},
+    {"title": "item1", "link": "#item1"},
+    {"title": "item1", "link": "#item1"},
+    {"title": "item1", "link": "#item1"},
+    {"title": "item1", "link": "#item1"}
+  ]
+}

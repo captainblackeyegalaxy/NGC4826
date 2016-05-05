@@ -1,0 +1,143 @@
+//-------------------------------------------------
+// Vars
+//-------------------------------------------------
+
+$padd: 21.75rem;
+$padd-mrgn: 1.5rem;
+$padd-fl: $padd - $padd-mrgn;
+
+//-------------------------------------------------
+// The Row
+//-------------------------------------------------
+
+.inter-row{
+  //border:1px dashed gray;
+  //background:aliceblue;
+  //height:100px;
+  font-size:1rem;
+  //position:relative;
+  margin:0 auto 20px auto !important;
+  box-sizing:border-box;
+  max-width:80rem;
+  width:100%;
+  padding: 0 #{$padd} 0 #{$padd};
+  &.mobile{
+    padding:0px 15px 15px 15px !important;
+    margin:0 auto !important;
+  }
+  &.full {
+    padding:0 !important;
+  }
+  &.distinct {
+    padding:20px !important;
+    background:grey;
+  }
+  &.flush {
+    max-width:100% !important;
+    width:100%;
+    padding:0 !important;
+    clear:both;
+  }
+  &.comp{
+    padding: 0 2rem 0 #{$padd} !important;
+  }
+  &.regular {
+    padding: 0 #{$padd} 0 #{$padd} !important;
+  }
+}
+
+//-------------------------------------------------
+// Floats
+//-------------------------------------------------
+
+.fl {
+  position:relative;
+  width: #{$padd-fl};
+  font-weight:700;
+  color: gray;
+  margin-bottom: 15px;
+  z-index:10;
+  & > p {
+    margin-bottom: 20px !important;
+  }
+}
+.fl-r {
+  //border:1px dashed gray;
+  //background:indianred;
+  //height:100px;
+  @extend .fl;
+  float: right;
+  margin-left: 0;
+  margin-right: -20.25rem;
+  padding: 0 0 0 1.5rem;
+  clear:right;
+}
+.fl-l {
+  //border:1px dashed gray;
+  //background:darkseagreen;
+  //height:100px;
+
+  @extend .fl;
+  float: left;
+  margin-left: -#{$padd-fl};
+  margin-right: 0;
+  padding: 0 1.5rem 0 0;
+  clear:left;
+}
+.fl-dis {
+  float:none;
+  clear: both;
+  margin:0;
+  padding:0;
+  width:100%;
+}
+
+//-------------------------------------------------
+// Row Combinations
+//-------------------------------------------------
+
+.row_comp {
+  @extend .comp;
+  .fl-r{
+    @extend .fl-l;
+  }
+  .fl-l {
+    clear:both;
+  }
+}
+.row_100 {
+  @extend .mobile;
+  .fl-r, .fl-l {
+    @extend .fl-dis;
+  }
+}
+
+//-------------------------------------------------
+// Responsive Rows
+//-------------------------------------------------
+
+.inter-mc {
+  &.x {
+
+  }
+  &.l {
+    .inter-row.regular {
+      @extend .row_comp;
+    }
+  }
+  &.m {
+    .inter-row.regular {
+      @extend .row_comp;
+    }
+  }
+  &.s {
+    .inter-row.regular {
+      @extend .row_100;
+    }
+  }
+  &.t {
+    .inter-row.regular {
+      @extend .row_100;
+    }
+  }
+}
