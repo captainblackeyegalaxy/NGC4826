@@ -2,46 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541ffad1-4302-406a-b7a1-007ae2f45fbd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/config.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/data/bar.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/js/main-mag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/.sass-cache/812a02b829218ad717f125c5bde700aae3f478c0/styles_eng.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/.sass-cache/812a02b829218ad717f125c5bde700aae3f478c0/styles_heb.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/.sass-cache/812a02b829218ad717f125c5bde700aae3f478c0/styles_tm.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/_styles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/components/_bar.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/components/_hamburger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/components/_video.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/magazine/_elements.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/magazine/_foundation.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/project_styles.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/styles_eng.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/styles_heb.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/styles_tm.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/utils/_base.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/utils/_grid.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/utils/_helpers.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/utils/_init.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/utils/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/sass/utils/_reset.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/stylesheets/project_styles.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/stylesheets/project_styles.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/stylesheets/styles_eng.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/stylesheets/styles_eng.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/stylesheets/styles_heb.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/stylesheets/styles_heb.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/stylesheets/styles_tm.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/stylesheets/styles_tm.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/node_modules/htz-inter/stylesheets/test.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libraries/API/npm-debug.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/readme.txt" />
     </list>
     <ignored path="Interactive.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -62,11 +23,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/libraries/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -217,6 +188,20 @@
               <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interactive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Interactive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="API" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -241,11 +226,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\roi.avidar\WebstormProjects\Interactive\libraries" />
       <recent name="C:\Users\roi.avidar\WebstormProjects\Interactive" />
       <recent name="C:\Users\roi.avidar\WebstormProjects\Interactive\haaretz-english\world-news" />
       <recent name="C:\Users\roi.avidar\WebstormProjects\Interactive\haaretz-english\weather" />
       <recent name="C:\Users\roi.avidar\WebstormProjects\Interactive\haaretz-english\videos" />
-      <recent name="C:\Users\roi.avidar\WebstormProjects\Interactive\haaretz-english\sports" />
     </key>
   </component>
   <component name="RunManager">
@@ -317,7 +302,7 @@
       <option name="presentableId" value="Default" />
       <updated>1462343362099</updated>
       <workItem from="1462343363571" duration="13307000" />
-      <workItem from="1462428701802" duration="3524000" />
+      <workItem from="1462428701802" duration="3581000" />
     </task>
     <task id="LOCAL-00001" summary="trying to add empty folder">
       <created>1462349114225</created>
@@ -344,7 +329,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16831000" />
+    <option name="totallyTimeSpent" value="16888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -410,13 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/haaretz-hebrew/news/science/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/haaretz-hebrew/news/weather/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -677,6 +655,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -777,6 +756,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libraries/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
